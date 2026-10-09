@@ -1,0 +1,68 @@
+{
+  "images": [
+    {
+      "name": "Piano1",
+      "category": "Grand Piano",
+      "description": "Professional grand piano 1",
+      "price": "1.234.567đ",
+      "type": "online",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRga7hhlWLl1nC1-dMAaiSnRukzcsMl5hWRyFBOLkSsjw&s=10"
+    },
+    {
+      "name": "Piano2",
+      "category": "Grand Piano",
+      "description": "Professional grand piano 2",
+      "price": "4.321.000đ",
+      "type": "online",
+      "url": "https://vietthuong.vn/image/catalog/kawai/Grand/kawai-gl-20.png"
+    },
+    {
+      "name": "Piano3",
+      "category": "Grand Piano",
+      "description": "Professional grand piano 3",
+      "price": "7.717.100đ",
+      "type": "online",
+      "url": "https://cdn.hstatic.net/products/1000302780/yamaha_u1g_c165b248aec14fb39179412090a12011.png"
+    },
+    {
+      "name": "Piano4",
+      "category": "Grand Piano",
+      "description": "Professional grand piano 4",
+      "price": "7.110.303đ",
+      "type": "online",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsLI9vhQ7cfI4Krlh5QHTwqtXM4LGsUFxxsLCx3Boj-8CQtUa38C7hVLy-&s=10"
+    },
+    {
+      "name": "Piano5",
+      "category": "Grand Piano",
+      "description": "Professional grand piano 5",
+      "type": "online",
+      "price": "2.512.2023đ",
+      "url": "https://bizweb.dktcdn.net/thumb/1024x1024/100/429/329/products/1786177387029-1869925714758517438-5829207032928181672-456b5cadfbfcfad6aae28fcfc5aff157.jpg?v=1786177417173"
+    },
+    {
+      "name": "Classic Upright",
+      "category": "Upright Piano",
+      "description": "Classic upright acoustic piano",
+      "price": "8.888.888đ",
+      "type": "online",
+      "url": "https://d30pueezughrda.cloudfront.net/roli.com/storyblok/blog_5_-_techniques.72042675717560.jpg"
+    },
+    {
+      "name": "Walnut Edition",
+      "category": "Upright Piano",
+      "description": "Upright piano in walnut finish",
+      "price": "Contact",
+      "type": "online",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRga7hhlWLl1nC1-dMAaiSnRukzcsMl5hWRyFBOLkSsjw&s=10"
+    },
+    {
+      "name": "Digital Piano 01",
+      "category": "Digital Piano",
+      "description": "Modern digital piano",
+      "price": "Sale-off 50%",
+      "type": "online",
+      "url": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?auto=format&fit=crop&w=1600&q=90"
+    }
+  ]
+}

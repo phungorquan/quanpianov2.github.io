@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PIANO — Collection</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;500&display=swap"
+        rel="stylesheet" />
+
+    <!-- Theme -->
+    <link rel="stylesheet" href="css/theme.css" />
+</head>
+
+<body>
+
+    <!-- Custom cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#" class="logo hover-target"> PIANO </a>
+        <div class="nav-links">
+            <a href="#collection" class="hover-target"> Collection </a>
+            <a href="#atelier" class="hover-target"> Atelier </a>
+            <a href="#contact" class="hover-target"> Contact </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <img class="hero-image"
+            src="https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?auto=format&fit=crop&w=2400&q=90"
+            alt="Grand piano" />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-small">The Art of Sound</div>
+            <h1 class="hero-title">PIANO</h1>
+            <p class="hero-description">
+                A collection of instruments created for those who believe that music begins with beauty.
+            </p>
+        </div>
+
+        <!-- <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div> -->
+    </section>
+
+    <!-- Introduction -->
+    <section class="intro">
+        <h2 class="intro-title reveal">
+            Instruments
+            <br />
+            with a soul.
+        </h2>
+        <p class="intro-text reveal">
+            Discover a carefully selected collection of grand, upright and contemporary pianos. Every instrument
+            combines craftsmanship, character and timeless design.
+        </p>
+    </section>
+
+    <!-- Dynamic collection -->
+    <section class="collection" id="collection">
+        <div class="section-title reveal">
+            <p class="eyebrow">THE COLLECTION</p>
+            <h2>Find your <em>sound.</em></h2>
+            <p id="collection-count">Discover our piano collection</p>
+        </div>
+
+        <div id="piano-collection">
+            <!-- Các hàng đàn sẽ được tạo từ gallery.json -->
+        </div>
+    </section>
+
+    <!-- Feature -->
+    <section class="feature" id="atelier">
+        <img class="feature-image"
+            src="https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?auto=format&fit=crop&w=2400&q=90"
+            alt="Concert grand piano" />
+        <div class="feature-content">
+            <div class="feature-number">02 — ATELIER</div>
+
+            <h2 class="feature-title">
+                Made
+                <br />
+                to last.
+            </h2>
+        </div>
+    </section>
+
+    <!-- Final image -->
+    <section class="final-image">
+        <img src="https://images.unsplash.com/photo-1552422535-c45813c61732?auto=format&fit=crop&w=2400&q=90"
+            alt="Piano detail" />
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer" id="contact">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <a href="#" class="footer-piano">PIANO</a>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-contact">
+                <h3>Get in touch</h3>
+
+                <a href="tel:+84901234567" class="footer-contact-link">
+                    Zalo: 123 456 789
+                </a>
+
+                <a href="https://www.facebook.com/Qanxiu" class="footer-contact-link" target="_blank"
+                    rel="noopener noreferrer">
+                    Facebook: Qân Xiu <span class="footer-arrow">↗</span>
+                </a>
+
+                <a href="https://www.tiktok.com/" class="footer-contact-link" target="_blank" rel="noopener noreferrer">
+                    Tiktok: abcd <span class="footer-arrow">↗</span>
+                </a>
+
+                <a href="mailto:hello@yourpianoshop.com" class="footer-contact-link">
+                    Email: hello@yourpianoshop.com
+                </a>
+
+                <p class="footer-contact-link">
+                    Address: Sài Gòn
+                </p>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© <span id="footer-year"></span> PIANO. All rights reserved.</p>
+
+            <div class="footer-logo">
+                <img src="https://png.pngtree.com/png-vector/20230823/ourmid/pngtree-an-icon-with-a-piano-vector-png-image_6913013.png"
+                    alt="Piano shop logo" />
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
